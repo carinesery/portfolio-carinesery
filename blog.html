@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intégration et animation d'infographie - Portfolio de Carine Sery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="projects-style.css" type="text/css">
+    <link rel="stylesheet" href="blog.css" type="text/css">
+    <meta name="description" content="Cette page présente un site de type blog dans sa version statique. Il a été réalisé dans le cadre d'un TP de cours HTML/CSS 
+    avancé de la formation au titre professionnel Développeur web.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_portfolio/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/favicon_portfolio/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="images/favicon_portfolio/favicon-16x16.webp">
+</head>
+<body>
+    <header id="top-of-page">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo du porfolio de Carine Sery"></a>
+        <nav>
+            <input type="checkbox" name="menu-burger" id="menu-burger">
+            <label for="menu-burger"></label>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a class="active" href="projects.html">Projets</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
+<main>
+    <a class="return" href="projects.html"><img src="images/collapse-arrow.svg" alt="Icône représentant une flèche pointant vers la gauche">Projets</a>
+    <h1>Création d'un blog (partiel et dans sa version statique)</h1>
+
+    <section>
+        <div class="details">
+            <h2>Contexte</h2>
+            <div class="date-context">
+                <div class="date-technologies">
+                    <span>Avril 2024</span>
+                    <div class="technologies">
+                        <img class="icon" src="images/ai.svg" alt="Icône Adobe Illustrator">
+                        <img class="icon" src="images/html-5.svg" alt="Icône HTML">
+                        <img class="icon" src="images/css-3.svg" alt="Icône CSS">
+                    </div>
+                </div> <!-- Modifier le lien -->
+                <a class="github-link" href="https://carinesery.github.io/blog-tchiz/" target="_blank" >Blog Tchiz<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>
+                <p>Dans le cadre du cours HTML/CSS avancé, il a été demandé de créer la partie "statique" d'un blog.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="details">
+            <h2>Processus</h2>
+            <ol>
+                <li>Compréhension du "cahier des charges"</li>
+                <li>Choix d'une thématique et d'une charte graphique</li>
+                <li>Création des contenus</li>
+                <li>Développement HTML/CSS des pages</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="presentation">
+        <h3><span class="first-part"></span>Compréhension du "cahier des charges"</h3>
+        <p>Dans le cadre de ce TP, la première étape a été de prendre connaissance des différents éléments à intégrer au sein du blog, dont voici la liste :</p>
+        <ul class="instructions-blog">
+            <li>concernant les pages :
+                <ul>
+                    <li>une page d'accueil affichant les derniers articles</li>
+                    <li>une page profil</li>
+                    <li>une page de création d'article avec formulaire</li>
+                    <li>une page de détail d'un article</li>
+                    <li>une page d'authentification avec formulaire</li>
+                    <li>une page de contact</li>
+                </ul>
+            </li>
+            <li>concernant le layout :
+                <ul>
+                    <li>des flexbox</li>
+                    <li>un layout en grid</li>
+                    <li>un menu avec un niveau de sous-menu au survol</li>
+                    <li>facultatif : une transformation en burger menu sur mobile</li>
+                </ul>
+            </li>
+            <li>concernant les features :
+                <ul>
+                    <li>un champ de recherche (coquille vide)</li>
+                    <li>un tableau de données quelconques</li>
+                    <li>au moins une vidéo Youtube dans un article</li>
+                    <li>une version responsive jusqu'à 360px</li>
+                    <li>une page imprimable propre</li>
+                    <li>au moins une police custom (intégrée localement ou via Google Fonts)</li>
+                    <li>au moins une animation</li>
+                    <li>des boutons de partage de réseaux sociaux</li>
+                    <li class="no-checked">un bandeau de gestion des cookies (sans interaction, juste le bandeau avec deux boutons sans action) : <span class="note">fait mais mis en commentaire afin de ne pas gêner la navigation</span></li>
+                    <li>un  système de commentaires avec le nombre sur chaque article de la page d'accueil et la liste des commentaires sur le détail de l'article</li>
+                </ul>
+            </li>
+        </ul> 
+    </section>
+
+    <section class="presentation">
+        <h3><span class="second-part"></span>Choix d'une thématique et d'une charte graphique</h3>
+        <p>Ayant de l'intérêt pour différents sujets, j'ai choisi d'orienter le blog vers la thématique du "Lifestyle".</p>
+        <p>De ce choix s'est manifestée l'idée de "moments de vie" que j'ai décidé de symboliser par des "photos polaroïd", qui ont la caratéristique de "capturer l'instant présent".
+           Dans cette logique, l'expression " Dîtes cheese" m'est apparue comme un nom potentiel pour le blog. J'ai opté pour ce nom dont j'ai modifié l'orthographe
+           pour conserver l'écriture phonétique "Tchiz". 
+        </p>
+        <p>Concernant les couleurs, j'ai choisi d'utiliser des couleurs [que je qualifierais de] "girly", car elles m'évoquent joie, légèreté et optimisme.</p>
+        <p>Les polices d'écriture ont également fait l'objet d'une réflexion. Il s'agissait de proposer des polices proches d'une écriture manuscrite, à l'image de celles
+            que l'on peut apercevoir dans un carnet posé sur un bureau. Les dessins, d'ailleurs, empruntent à cet univers : petites pinces, scotch, posts-its etc. 
+        </p>
+        <p>Ainsi, voici les éléments de la charte graphique du blog - incomplet soit-il - que j'ai imaginé :</p>
+        <a href="images/graphic-charter-tchiz.webp" title="Cliquez pour agrandir"><img class="graphic-charter-tchiz" src="images/graphic-charter-tchiz.webp" alt="Charte graphique du blog Tchiz"></a>
+    </section>
+
+    <section class="presentation">
+        <h3><span class="third-part"></span>Création des contenus</h3>
+        <h4>1 / Contenus visuels créés avec HTML/CSS</h4>
+        <p>J'ai eu envie de proposer, au centre de la page d'accueil, le dessin d'un appareil photo polaroïd. Idéalement, je souhaitais qu'il soit possible d'interagir avec ce dernier à
+            travers la prise d'une photographie qui ferait apparaitre le dernier article du blog. Je me suis appuyée sur une photographie d'un polaroïd afin de coder cet élément :</p>
+        <div class="polaroids">
+            <figure>
+                <img src="images/polaroid.webp" alt="Photographie de l'appareil photo polaroid qui a servi de modèle">
+                <figcaption>Photographie de l'appareil photo polaroïd qui a servi de modèle</figcaption>
+            </figure>
+            <figure>
+                <img src="images/polaroid-css.webp" alt="Dessin de l'appareil polaroid en html/css">
+                <figcaption>Dessin de l'appareil polaroïd en HTML/CSS</figcaption>
+            </figure>
+        </div>
+        <p>Comme mentionné dans le cahier des charges, il était demandé de concevoir un tableau de données quelconques. J'ai choisi d'intégrer cet élément au site via le design d'un calendrier.</p>
+        <figure class="calendar">
+            <img src="images/calendar-css.webp" alt="Dessin d'un calendrier en html/css">
+            <figcaption>Dessin d'un calendrier en HTML/CSS</figcaption>
+        </figure>
+        
+        <h4>2 / Contenus visuels créés avec Adobe Illustrator</h4>
+        <p>Grâce à Adobe Illustrator, j'ai eu la possibilité de créer des contenus complémentaires pour l'ensemble des pages du blog :</p>
+        <div class="additional-content">
+            <figure class="desk-clamps">
+                <img src="images/desk-clamps-ai.webp" alt="Dessin vectoriel de pinces clip" >
+                <figcaption>Dessin vectoriel des pinces clip</figcaption>
+            </figure>
+            <figure class="desk-clamps-small">
+                <img src="images/desk-clamps-small-ai.webp" alt="Dessin vectoriel de pinces clip" >
+                <figcaption>Dessin vectoriel des pinces clip</figcaption>
+            </figure>
+            <figure class="desk-clamps-xsmall">
+                <img src="images/desk-clamps-xsmall-ai.webp" alt="Dessin vectoriel d'une pince clip" >
+                <figcaption>Dessin vectoriel des pinces clip</figcaption>
+            </figure>
+            <figure>
+                <img class="question-tag" src="images/question-tag-ai.webp" alt="Dessin vectoriel d'une photographie présentant un point d'interrogation" >
+                <figcaption>Dessin vectoriel d'une photographie polaroïd</figcaption>
+            </figure>
+            <figure>
+                <img class="envelop" src="images/envelop-ai.webp" alt="Dessin vectoriel d'une enveloppe" >
+                <figcaption>Dessin vectoriel d'une enveloppe</figcaption>
+            </figure>
+            <figure>
+                <img class="notepad-pen" src="images/notepad-pen-ai.webp" alt="Dessin vectoriel d'un carnet de notes" >
+                <figcaption>Dessin vectoriel d'un carnet de notes</figcaption>
+            </figure>
+        </div>
+        
+        <h4>3 / Contenu textuel : l'article de blog</h4>
+        <p>N'hésitez pas à consulter l'article du blog qui a été entièrement rédigé à la main. Curieux ? Cliquez <a class="mock-up" href="https://carinesery.github.io/blog-tchiz/article-reprendre-activite-physique.html" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a> !</p>
+        
+    </section>
+    <section class="presentation">
+        <h3><span class="fourth-part"></span>Développement HTML/CSS des pages</h3>
+        <h4>1 / L'animation : l'appareil photo polaroïd</h4>
+        <p>L'ensemble du blog a été dévelopé en HTML/CSS. J'en ai cependant trouvé les limites lors du codage de l'appareil polaroïd : s'il est effectivement possible de "prendre une photo"
+            uniquement lorsque l'obturateur est ouvert, l'utilisation de Javascript m'aurait été nécessaire pour rendre automatique la fermeture du déclencheur lorsque l'obturateur est lui-même fermé.
+        </p>
+        <p>Pour tester l'appareil polaroïd, c'est par <a class="mock-up" href="https://carinesery.github.io/blog-tchiz/" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a> (en bas de page).</p>
+
+        <h4>2 / La page imprimable</h4>  
+        <p>Vous avez aimé mon article et aimeriez en conserver une trace ? Comme demandé dans le cahier des charges, j'ai créé une version imprimable de celui-ci. Pour l'obtenir, cliquez <a class="mock-up" href="https://carinesery.github.io/blog-tchiz/article-reprendre-activite-physique.html" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a> et demander l'impression avec un clic droit.</p>
+        <p>Vous trouverez ci-dessous les visuels des trois maquettes, pour un format ordinateur, un format tablette et un format smartphone.</p>
+        <p class="see-website">L'ensemble du site est consultable en cliquant <a class="mock-up" href="https://carinesery.github.io/blog-tchiz/" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>.</p>
+    
+    </section>
+    <div class="up">
+        <a href="#top-of-page"><img class="up" src="images/arrow-top.webp" alt="Icône représentant une flèche pointant vers le haut"></a>
+    </div>
+
+</main>
+<footer>
+    <a href="legal-informations.html">Mentions légales</a>
+    <span>Carine Sery <span class="copyright"></span> Tous droits réservés | 2024</span>
+    <div>
+        <a class="github-icon" href="https://github.com/carinesery"></a>
+        <a class="linkedin-icon" href="https://www.linkedin.com/in/carinesery"></a>     
+    </div>
+</footer>
+</body>
+</html>

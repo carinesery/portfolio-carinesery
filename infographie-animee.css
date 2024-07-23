@@ -1,0 +1,87 @@
+.initial-infographic {
+    display: block;
+    width: 600px;
+    margin: 24px auto 24px;
+}
+
+.drawings-ai {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    /* padding: 24px 48px; */
+    /* border: 1px solid #d9d9d9; */
+    margin: 24px auto 24px;
+}
+
+.drawings-ai figure {
+    width: 200px;
+    height: 242px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f15d46 0 50%, #33CC66 50% 100%);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+figure.square {
+    background: linear-gradient(135deg, #33CC66 0 50%, #fabd29 50% 100%);
+}
+
+figure.notepad {
+    background: linear-gradient(135deg, #fabd29 0 50%, #f15d46 50% 100%);
+}
+
+figure.typewriter {
+    background: linear-gradient(135deg, #f15d46 0 50%, #33CC66 50% 100%);
+}
+
+.square img {
+    width: 120px;
+}
+
+.notepad img, .typewriter img {
+    width: 160px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .initial-infographic {
+        width: 560px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .initial-infographic {
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+
+    .initial-infographic {
+        width: 300px;
+    }
+
+    .drawings-ai figure {
+        width: 160px;
+        height: 188px;
+    }
+
+    .square img {
+        width: 80px;
+    }
+
+    .notepad img, .typewriter img {
+        width: 100px;
+    }
+
+}
+

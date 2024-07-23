@@ -1,0 +1,143 @@
+h1 {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateX(35px);
+}
+
+h4 {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 8px;
+}
+
+.graphic-charter-cesi, .tree-structure-cesi {
+    display: block;
+    width: 550px;
+    margin: 32px auto;
+    border: 1px solid #d9d9d9;
+}
+
+.tree-structure-cesi {
+    width: 900px;
+}
+
+.graphic-charter-cesi + p {
+    margin-bottom: 48px;
+}
+
+.personas-cesi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    column-gap: 64px;
+    row-gap: 32px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+.persona-cesi {
+    width: 550px;
+    min-width: 268px;
+    margin-top: 32px;
+}
+
+.persona-cesi img, .graphic-charter-cesi img {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+
+.persona-cesi figcaption, .visuals-cesi figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.tree-structure-cesi {
+    display: block;
+    width: 80%;
+}
+
+.visuals-cesi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 96px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.visuals-cesi figure {
+    margin-top: 32px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.visuals-cesi figcaption {
+    margin-top: 16px;
+}
+
+.view-mob-app {
+    width: 200px;
+    /* height: 365px; */
+    height: 432px;
+    border: 24px solid #292929;
+    outline: 3px solid #1b465c;
+    border-width: 10px 10px 14px 10px;
+    border-radius: 24px;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.view-mob-app .image {
+    width: 100%;
+    border: 1px solid #606060;
+    border-radius: 13px;
+    box-sizing: content-box;
+}
+
+@media screen and (max-width: 1000px){
+    
+    h1 {
+        transform: translateX(0px);
+    }
+
+    .tree-structure-cesi {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    h1 {
+        left: 0;
+    }
+
+    .personas-cesi {
+        row-gap: 16px;
+    }
+
+    .tree-structure-cesi, .graphic-charter-cesi {
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 565px) { 
+
+    h1 {
+        left: 0;
+    }
+
+    .personas-cesi {
+        row-gap: 0;
+    }
+
+    .tree-structure-cesi, .graphic-charter-cesi {
+        width: 268px;
+    }
+}

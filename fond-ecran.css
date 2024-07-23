@@ -1,0 +1,67 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px auto 24px;
+}
+
+.desert-photography {
+    display: block;
+    width: 600px;
+}
+
+.desert-photography + figcaption {
+    width: 600px;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.desert-photography + figcaption .copyright {
+    width: 10px;
+    height: 10px;
+}
+
+.desert-wallpaper {
+    display: block;
+    width: 800px;
+    margin: 24px auto 24px;
+    /* border: 1px solid #d9d9d9; */
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .desert-photography, .desert-photography + figcaption {
+        width: 560px;
+    }
+
+    .desert-wallpaper {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .desert-photography, .desert-photography + figcaption {
+        width: 420px;
+    }
+
+    .desert-wallpaper {
+        width: 420px;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+
+    .desert-photography, .desert-photography + figcaption {
+        width: 268px;
+    }
+
+    .desert-wallpaper {
+        width: 268px;
+    }
+
+}

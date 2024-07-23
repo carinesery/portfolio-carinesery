@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page - Portfolio de Carine Sery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="landing-page.css" type="text/css">
+    <meta name="description" content="Cette page présente le projet Landing page. Il a été réalisé par Carine Sery dans le
+    cadre de sa formation au titre professionnel Développeur web.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_portfolio/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/favicon_portfolio/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="images/favicon_portfolio/favicon-16x16.webp">
+</head>
+<body>
+    <header id="top-of-page">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo du porfolio de Carine Sery"></a>
+        <nav>
+            <input type="checkbox" name="menu-burger" id="menu-burger">
+            <label for="menu-burger"></label>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a class="active" href="projects.html">Projets</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <main>
+        <a class="return" href="projects.html"><img src="images/collapse-arrow.svg" alt="Icône représentant une flèche pointant vers la gauche">Projets</a>
+        <h1>Landing page</h1>
+
+        <section>
+            <div class="details">
+                <h2>Contexte</h2>
+                <div class="date-context">
+                    <div class="date-technologies">
+                        <span>Décembre 2023</span>
+                        <div class="technologies">
+                            <img class="icon" src="images/figma.svg" alt="Icône Figma">
+                            <img class="icon" src="images/html-5.svg" alt="Icône HTML">
+                            <img class="icon" src="images/css-3.svg" alt="Icône CSS">
+                        </div>
+                    </div>
+                    <a class="github-link" href="https://carinesery.github.io/landing-page-goodis/" target="_blank" >Landing page Goodis<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>
+                    <p>L'entreprise Good'is, spécialiée dans la vente d'objets publicitaires depuis plus de 20 ans, 
+                        souhaite qu'une landing page soit réalisée afin de promouvoir un nouveau stylo publicitaire.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="details">
+                <h2>Processus</h2>
+                <ol>
+                    <li>Identification des contenus à intégrer à la landing page</li>   
+                    <li>Rédaction d'un persona</li>
+                    <li>Choix de la charte graphique</li> 
+                    <li>Réalisation des maquettes mobile et ordinateur</li>
+                    <li>Intégration des maquettes</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <h3><span class="first-part"></span>Identification des contenus et rédaction d'un persona</h3>
+            <p>L'analyse d'une quinzaine de pages d'atterrissage a permis de mettre en évidence les contenus à intégrer :</p>
+                <ul>
+                    <li>une accroche</li>
+                    <li>une photographie du stylo</li>
+                    <li>des call-to-action</li>
+                    <li>les caractéristiques techniques du stylo et son prix</li>
+                    <li>des commentaires laissés par les précédents clients de Good'is</li>
+                </ul>
+            <p>Un persona a également été rédigé afin de mieux appréhender les attentes et les peurs éventuelles d'un client potentiel du nouveau 
+                stylo proposé par l'entreprise Good'is.
+            </p>
+                <img class="persona" src="images/persona-landing-page.webp" alt="Persona rédigé en lien avec la to do list">
+        </section>
+
+        <section class="presentation">
+            <h3><span class="second-part"></span>Création de la charte graphique</h3>
+            <p>La charte graphique est composée d'une large palette de couleurs car l'entreprise Good'is, spécialisée dans la vente d'objets publicitaires,
+                a l'ambition de proposer à sa clientèle la diffusion de "leurs propres couleurs".</p>
+            <div class="graphic-charter">
+                <span id="logo-created"><img src="images/logo-goodis.svg" alt="Logo conçu pour l'application To do list de l'entreprise Safrio"></span>
+                <span id="color-one">#000000</span>
+                <span id="color-two">#d9d9d9</span>
+                <span id="color-three">#9f65dc</span>
+                <span id="color-four">#ed55da</span>
+                <span id="color-five">#f1a30b</span>
+                <span id="color-six">#02d6ce</span>
+                <span id="color-seven">#fdf346</span>
+                <span id="color-eight">#fffafe</span>
+                <span id="color-nine">#ffffff</span>
+                <span id="main-font">Inter</span>
+                <span id="secondary-font">Pecita</span>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <h3><span class="third-part"></span>Maquettage sous figma</h3>
+            <p>Les maquettes ont été réalisées pour les supports suivants :</p> 
+                <ul>
+                    <li>ordinateur de résolution 1440 x 1024, </li>
+                    <li>mobile de résolution 375 x 667.</li>
+                </ul>
+            <p>La landing page, grâce à son responsive design, pourra être consultée sur un ordinateur, une tablette et un mobile. 
+                Accessible pour un plus grand nombre de clients potentiels, cela devrait impacter favorablement le taux de conversion. 
+            </p>
+            <p>Vous trouverez ci-dessous les visuels des deux maquettes, sur un format ordinateur et sur un format téléphone.</p>
+            <p>Les maquettes sont consultables en cliquant <a class="mock-up" href="https://www.figma.com/file/Y3miIsMsZezrWO7aEDsULm/Projet-Landing-page?type=design&node-id=11-31&mode=design&t=gK707YWLNYzRoaHX-0" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>.</p>
+            
+            <span class="view-title">Maquette vue ordinateur</span>
+            <div class="view-desktop">
+                <div class="image">
+                    <img src="images/desktop-landing-page.webp" alt="Visuel de la landing page vue ordinateur">
+                </div>
+            </div> 
+            
+            <span class="view-title">Maquette vue mobile</span>
+            <div class="view-phone">
+                <div class="image">
+                    <img src="images/mobile-landing-page.webp" alt="Visuel de la landing page vue tablette">
+                </div>
+            </div>
+        </section>
+
+        <div class="up">
+            <a href="#top-of-page"><img class="up" src="images/arrow-top.webp" alt="Icône représentant une flèche pointant vers le haut"></a>
+        </div>
+
+    </main>
+    <footer>
+        <a href="legal-informations.html">Mentions légales</a>
+        <span>Carine Sery <span class="copyright"></span> Tous droits réservés | 2024</span>
+        <div>
+            <a class="github-icon" href="https://github.com/carinesery"></a>
+            <a class="linkedin-icon" href="https://www.linkedin.com/in/carinesery"></a>     
+        </div>
+    </footer>
+</body>
+</html>

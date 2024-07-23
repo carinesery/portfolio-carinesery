@@ -1,0 +1,525 @@
+@font-face {
+    font-family: 'Klee One';
+    src: url(fonts/klee-one/klee-one-semibold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Early Gameboy';
+    src: url(fonts/early-gameboy.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Impact;
+    src: url(fonts/impact/impact.ttf) format(truetype);
+    src: url(fonts/impact/impacted.ttf) format(truetype);
+    src: url(fonts/impact/unicode.impact.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Faktum;
+    src: url(fonts/faktum/faktum-regular.otf) format(opentype);
+    src: url(fonts/faktum/faktum-bold.otf) format(opentype);
+}
+
+@font-face {
+    font-family: Drexs;
+    src: url(fonts/drexs/drexs-51Pp8.otf) format(opentype);
+    src: url(fonts/drexs/drexs-z8gB3.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: PermanentMarker;
+    src: url(fonts/permanentmarker-regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Asterlight;
+    src: url(fonts/asterlight/asterlight-regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Retro Signed';
+    src: url(fonts/retrosigned-dyyy0.ttf) format(truetype);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.list-of-projects {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 48px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.safrio, .gameboycodeur, .goodis, .cv, .wallpaper, .animated-infographic, .blog, .pages-wordpress, .cesi-app, .big-wheel {
+    width: 450px;
+    height: 319px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.safrio {
+    background-color: rgb(207, 216, 254, .8);
+}
+
+.gameboycodeur {
+    background-color: rgb(0, 128, 128, .8);
+}
+
+.goodis {
+    background-color: rgb(237, 85, 218, .8);
+}
+
+.cv {
+    background-color: rgb(229, 189, 255, .8);
+}
+
+.wallpaper {
+    background-color: rgba(76, 50, 130, 0.8); 
+    
+} 
+
+.animated-infographic {
+    background-color: rgb(241, 93, 70, .8);
+} 
+
+.blog {
+    background-color: rgb(96, 190, 188, .8);
+} 
+
+.pages-wordpress {
+    background-color: rgb(99, 27, 137, .8)
+}
+
+.cesi-app {
+    background-color: rgb(251, 226, 22, .8); 
+}
+
+.big-wheel {
+    background: linear-gradient(#fc60edcc, #a5fffdcc);
+}
+
+.safrio::after, 
+.gameboycodeur::after, 
+.goodis::after, 
+.cv::after, 
+.wallpaper::after, 
+.animated-infographic::after, 
+.blog::after, 
+.pages-wordpress::after, 
+.cesi-app::after,
+.big-wheel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    z-index: -1;
+}
+
+.safrio::after {
+    background-image: url(images/projet-maquette-to-do-list.webp);
+}
+
+.gameboycodeur::after {
+    background-image: url(images/desktop-home-application.webp);
+}
+
+.goodis::after {
+    background-image: url(images/projet-langing-page.webp);
+}
+
+.cv::after {
+    background-image: url(images/projet-cv.webp);
+}
+
+.wallpaper::after {
+    background-image: url(images/projet-fond-ecran.webp);
+    background-size: cover;
+}
+
+.animated-infographic::after {
+    background-image: url(images/projet-infographie-animee.webp);
+    background-size: cover;
+} 
+
+.blog::after {
+    background-image: url(images/projet-blog.webp);
+    background-size: cover;
+}
+
+.pages-wordpress::after {
+    background-image: url(images/projet-pages-wordpress.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.cesi-app::after {
+    background-image: url(images/projet-application-cesi.webp);
+}
+
+.big-wheel::after {
+    background-image: url(images/projet-grande-roue.webp);
+    background-size: cover;
+}
+
+.safrio > span, 
+.gameboycodeur > span, 
+.goodis > span, 
+.wallpaper > span, 
+.animated-infographic > span, 
+.blog > span, 
+.pages-wordpress > span, 
+.cesi-app > span, 
+.big-wheel > span {
+    display: block;
+    font-size: 32px;
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+}
+
+.safrio > span {
+    font-family: 'Klee One', sans-serif;
+}
+
+.gameboycodeur > span {
+    font-family: 'Early Gameboy', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.goodis > span {
+    font-family: Impact, sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.cv > span {
+    display: block;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.cv > span::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background-image: url(images/copyright.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 2px;
+}
+
+.wallpaper > span {
+    color: #ffffff;
+    font-family: Drexs, sans-serif;
+    font-weight: 700;
+    text-transform: initial;
+    letter-spacing: .15rem;
+} 
+
+.animated-infographic > span {
+    font-family: Roboto, sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: initial;
+} 
+
+.blog > span {
+    font-family: PermanentMarker, sans-serif;
+    font-size: 44px;
+}
+
+.pages-wordpress > span {
+    font-family: Asterlight, sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: initial;
+    line-height: 3.2rem; 
+}
+
+.cesi-app > span {
+    font-family: Faktum, sans-serif;
+    font-size: 38px;
+}
+
+.big-wheel > span {
+    font-family: 'Retro Signed', sans-serif;
+    color: rgb(255, 0, 195);
+    font-size: 42px;
+}
+
+.project-consultation  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 18px;
+    background: linear-gradient(#e5bdff, #cfd8fe);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity .2s;
+}
+
+.icon {
+    width: 24px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-bottom: 8px;
+    width: 70%;
+    text-align: center;
+}
+
+h2 + span {
+    margin-bottom: 16px;
+}
+
+.safrio:hover .project-consultation, 
+.gameboycodeur:hover .project-consultation, 
+.goodis:hover .project-consultation, 
+.cv:hover .project-consultation,
+.wallpaper:hover .project-consultation, 
+.animated-infographic:hover .project-consultation, 
+.blog:hover .project-consultation,
+.pages-wordpress:hover .project-consultation, 
+.cesi-app:hover .project-consultation,
+.big-wheel:hover .project-consultation 
+{
+    opacity: 1;
+}
+
+.consultation {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: transform .2s, font-weight .2s;
+}
+
+.consultation:hover {
+    font-weight: 500; 
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:635px) {
+    
+    section {
+        width: 350px;
+    }
+
+    .safrio, 
+    .gameboycodeur, 
+    .goodis, 
+    .cv, 
+    .wallpaper, 
+    .animated-infographic, 
+    .blog, 
+    .pages-wordpress, 
+    .cesi-app, 
+    .big-wheel {
+        width: 350px;
+        height: 248px;
+    }
+
+    .safrio > span {
+        font-size: 28px;
+    }
+    
+    .gameboycodeur > span {
+        font-size: 24px;
+    }
+    
+    .goodis > span {
+        font-size: 33px;  
+    }
+    
+    .cv > span {
+        font-size: 32px;
+    }
+    
+    .cv > span::before {
+        width: 22px;
+        height: 22px;
+        top: 3px;
+    }
+
+    .wallpaper > span {
+        font-size: 28px;  
+    } 
+    
+    .animated-infographic > span {
+        font-size: 32px;  
+    }
+
+    .blog > span {
+        font-size: 38px;
+    } 
+
+    .pages-wordpress > span {
+        font-size: 50px;
+        line-height: 2.6rem;
+    }
+    
+    .cesi-app > span {
+        font-size: 32px;  
+    }
+
+    .big-wheel > span {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h2 + span {
+        font-size: 16px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    section {
+        width: 260px;
+    }
+
+    .safrio, 
+    .gameboycodeur, 
+    .goodis, 
+    .cv, 
+    .wallpaper, 
+    .animated-infographic, 
+    .blog, 
+    .pages-wordpress, 
+    .cesi-app, 
+    .big-wheel {
+        width: 260px;
+        height: 184px;
+    }
+
+    .safrio > span {
+        font-size: 22px;
+    }
+    
+    .gameboycodeur > span {
+        font-size: 20px;
+    }
+    
+    .goodis > span {
+        font-size: 28px;  
+    }
+    
+    .cv > span {
+        font-size: 22px;
+    }
+    
+    .cv > span::before {
+        width: 16px;
+        height: 16px;
+        top: 2px;
+        margin-right: 4px;
+    }
+
+    .wallpaper > span {
+        font-size: 18px;  
+    } 
+    
+    .animated-infographic > span {
+        font-size: 22px;  
+    }
+
+    .blog > span {
+        font-size: 28px;
+    } 
+
+    .pages-wordpress > span {
+        font-size: 38px;
+        line-height: 2rem;
+    }
+    
+    .cesi-app > span {
+        font-size: 22px;  
+    }
+
+    .big-wheel > span {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .pages-wordpress h2 {
+        font-size: 14px;
+    }
+
+    h2 + span {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .pages-wordpress h2 + span {
+        font-size: 13px;
+    }
+
+    .icon {
+        width: 16px;
+        height: 16px;
+        margin-bottom: 8px;
+    }
+
+    .consultation {
+        font-size: 14px;
+    }
+
+}

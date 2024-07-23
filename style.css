@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/menu-burger.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #ffffff;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+header > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+}
+
+header a, nav a {
+    transition: transform .3s;
+}
+
+header a:hover, nav a:hover {
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+nav {
+    display: flex;
+    width: 40%;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 32px;
+}
+
+
+nav a {
+    background: linear-gradient(to top, transparent 0 10%, #e5bdff 10% 55%, transparent 55% 100%) no-repeat bottom left;
+    background-size: 0 100%;
+    transition: background-size .5s;
+    display: inline-block;
+    height: 120%;
+}
+
+
+header img {
+    width: 64px;
+    aspect-ratio: 1/1;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    background-size: 100% 100%;   
+}
+
+nav a.active {
+    font-weight: 600;
+    transform: scale(1.05);
+    background-size: 100% 100%;  
+}
+
+#home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 32px;
+}
+
+#home-page img {
+    width: 400px;
+    margin-right: 32px;
+}
+
+#home-page h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 48px;
+    margin-left: 32px;
+    color: transparent;
+    position: relative;
+    height: 206px;
+}
+
+.message-that-writes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hello {
+    display: block;
+    color: black;
+    text-transform: none;
+    font-size: 24px;
+    margin-bottom: 16px;
+    line-height: normal;
+}
+  
+.hello::after {
+    content:'';
+    animation: hello 10s infinite;
+}
+  
+@keyframes hello {
+    0% {content:'B'}
+    1% {content:'Bo'}
+    2% {content:'Bon'}
+    3% {content:'Bonj'}
+    4% {content:'Bonjo'}
+    5% {content:'Bonjou'}
+    6% {content:'Bonjour'}
+    7% {content:'Bonjour,'}
+    100% {content:'Bonjour,'}
+}
+  
+.carine {
+    display: block;
+    color: black;
+}
+  
+.carine::after {
+    content:'';
+    animation: carine 10s infinite;
+}
+  
+@keyframes carine {
+    0% {content:''}
+    1% {content:''}
+    2% {content:''}
+    3% {content:''}
+    4% {content:''}
+    5% {content:''}
+    6% {content:''}
+    7% {content:''}
+    8% {content:'J'}
+    9% {content:'Je'}
+    10% {content:'Je '}
+    11% {content:'Je s'}
+    12% {content:'Je su'}
+    13% {content:'Je sui'}
+    14% {content:'Je suis'}
+    15% {content:'Je suis '}
+    16% {content:'Je suis C'}
+    17% {content:'Je suis Ca'}
+    18% {content:'Je suis Car'}
+    19% {content:'Je suis Cari'}
+    20% {content:'Je suis Carin'}
+    21% {content:'Je suis Carine'}
+    22% {content:'Je suis Carine,'}
+    100% {content:'Je suis Carine,'}
+}
+  
+.developer {
+    display: inline-block;
+    color: black;
+    margin-bottom: 16px;
+}
+  
+.developer::after {
+    content:'';
+    animation: developer 10s infinite;
+}
+  
+@keyframes developer {
+    0% {content:''}
+    1% {content:''}
+    2% {content:''}
+    3% {content:''}
+    4% {content:''}
+    5% {content:''}
+    6% {content:''}
+    7% {content:''}
+    8% {content:''}
+    9% {content:''}
+    10% {content:''}
+    11% {content:''}
+    12% {content:''}
+    13% {content:''}
+    14% {content:''}
+    15% {content:''}
+    16% {content:''}
+    17% {content:''}
+    18% {content:''}
+    19% {content:''}
+    20% {content:''}
+    21% {content:''}
+    22% {content:''}
+    23% {content:'d'}
+    24% {content:'dé'}
+    25% {content:'dév'}
+    26% {content:'déve'}
+    27% {content:'dével'}
+    28% {content:'dévelo'}
+    29% {content:'dévelop'}
+    30% {content:'développ'}
+    31% {content:'développe'}
+    32% {content:'développeu'}
+    33% {content:'développeus'}
+    34% {content:'développeuse'}
+    35% {content:'développeuse '}
+    36% {content:'développeuse w'}
+    37% {content:'développeuse we'}
+    38% {content:'développeuse web'}
+    39% {content:'développeuse web.'}
+    100% {content:'développeuse web.'}
+}
+
+
+.developer {
+    background: linear-gradient(to top, transparent 0 10%, #e5bdff 10% 55%, transparent 55% 100%) no-repeat;
+    animation: highlight-purple 10s infinite;
+}
+
+@keyframes highlight-purple {
+
+    0% {
+        background-size: 0%
+    }
+
+    40% {
+        background-size: 0%;
+    }
+
+    52% {
+        background-size: 98%;
+    }
+
+    100% {
+        background-size: 98%;
+    }
+}
+
+
+.discover {
+    display: block;
+    color: black;
+    text-transform: none;
+    font-size: 24px;
+    margin-bottom: 16px;
+    line-height: normal;
+}
+  
+.discover::after {
+    content:'';
+    animation: discover 10s infinite;
+}
+
+@keyframes discover {
+    0% {content:''}
+    1% {content:''}
+    2% {content:''}
+    3% {content:''}
+    4% {content:''}
+    5% {content:''}
+    6% {content:''}
+    7% {content:''}
+    8% {content:''}
+    9% {content:''}
+    10% {content:''}
+    11% {content:''}
+    12% {content:''}
+    13% {content:''}
+    14% {content:''}
+    15% {content:''}
+    16% {content:''}
+    17% {content:''}
+    18% {content:''}
+    19% {content:''}
+    20% {content:''}
+    21% {content:''}
+    22% {content:''}
+    23% {content:''}
+    24% {content:''}
+    25% {content:''}
+    26% {content:''}
+    27% {content:''}
+    28% {content:''}
+    29% {content:''}
+    30% {content:''}
+    31% {content:''}
+    32% {content:''}
+    33% {content:''}
+    34% {content:''}
+    35% {content:''}
+    36% {content:''}
+    37% {content:''}
+    38% {content:''}
+    39% {content:''}
+    40% {content:''}
+    41% {content:''}
+    42% {content:''}
+    43% {content:''}
+    44% {content:''}
+    45% {content:''}
+    46% {content:''}
+    47% {content:''}
+    48% {content:''}
+    49% {content:''}
+    50% {content:''}
+    51% {content:''}
+    52% {content:''}
+    53% {content:''}
+    54% {content:''}
+    55% {content:''}
+    56% {content:'D'}
+    57% {content:'Dé'}
+    58% {content:'Déc'}
+    60% {content:'Déco'}
+    61% {content:'Décou'}
+    62% {content:'Découv'}
+    63% {content:'Découvr'}
+    64% {content:'Découvre'}
+    65% {content:'Découvrez'}
+    66% {content:'Découvrez '}
+    67% {content:'Découvrez m'}
+    68% {content:'Découvrez mo'}
+    69% {content:'Découvrez mon '}
+    70% {content:'Découvrez mon p'}
+    71% {content:'Découvrez mon po'}
+    72% {content:'Découvrez mon por'}
+    73% {content:'Découvrez mon port'}
+    74% {content:'Découvrez mon portf'}
+    75% {content:'Découvrez mon portfo'}
+    76% {content:'Découvrez mon portfol'}
+    77% {content:'Découvrez mon portfoli'}
+    78% {content:'Découvrez mon portfolio'}
+    79% {content:'Découvrez mon portfolio '}
+    80% {content:'Découvrez mon portfolio !'}
+    100% {content:'Découvrez mon portfolio !'}
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+a[href|="legal"]:hover {
+    font-weight: 500;
+}
+
+.copyright {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(images/copyright.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.github-icon, .linkedin-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 8px;
+    transition: background-image .2s;
+}
+
+.github-icon {
+    background-image: url(images/github.svg);
+}
+
+.linkedin-icon {
+    background-image: url(images/linkedin.svg);
+}
+
+.github-icon:hover { 
+    background-image: url(images/github-gradient.svg);
+}
+
+.linkedin-icon:hover {
+    background-image: url(images/linkedin-gradient.svg);
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    #home-page h1, .carine, .developer {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+}
+
+@media screen and (max-width: 1260px) {
+    
+    #home-page h1, .carine, .developer {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        width: 400px;
+    }
+
+    #home-page {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+        margin-bottom: 24px;
+        row-gap: 24px;
+    }
+
+    #home-page h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #home-page h1, .carine, .developer {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .carine {
+        margin-bottom: 8px;
+    }
+
+    #home-page img {
+        width: 200px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+   .hello, .discover {
+    font-size: 20px;
+   }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    #home-page a {
+        width: 180px;
+    }
+
+    #home-page .discover {
+        width: inherit;
+    }
+
+    #home-page a span {
+        width: 39px;
+    }
+
+    #home-page h1, .carine, .developer {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .copyright {
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .github-icon, .linkedin-icon {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        margin-left: 4px;
+    }
+}
+
+
+@media screen and (max-width: 565px) { 
+    
+    header {
+        position: relative;
+    }
+
+    header label {
+        display: flex;
+        position: relative;
+        z-index: 2;
+    }
+
+    header label:checked {
+        opacity: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        background: linear-gradient(#e5bdff, #bbdafe);
+        z-index: 1;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        top: 0;
+        right: 0;
+        height: 0;
+        transition: height .3s;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        width: 100%;
+        padding: 8px 16px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    nav ul li:first-child {
+       padding-top: 20vh;
+    }
+
+    nav ul li:last-child {
+        padding-bottom: 20vh;
+    }
+
+    nav {
+        width: fit-content;
+        padding: 16px 32px;
+    }
+
+    nav a { /* Le soulignage des liens est transparent sur le menu burger */
+        background: linear-gradient(to top, transparent 0% 15%, transparent 15% 90%) no-repeat bottom left;
+        background-size: 0 0;
+    }
+
+    header input:checked + label {
+        background-image: url(images/close.svg);
+        background-color: transparent;
+        position: fixed;
+        top: 22px;
+        right: 32px;
+        
+    }
+
+    header input:checked ~ ul {
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+    }
+
+    #home-page h1 .carine, .developer {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .carine {
+        margin-bottom: 0;
+    }
+
+    .hello, .discover {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+}

@@ -1,0 +1,161 @@
+h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.profile-presentation {
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-rows: auto 75px;
+    grid-template-columns: 350px 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "photo profile profile profile profile"
+    ". . download download .";
+    margin-top: 64px;
+    margin-bottom: 64px;
+    align-items: center;
+}
+
+#photo-portfolio {
+    width: 350px;
+    height: 350px;
+    min-width: 350px;
+    border-radius: 100%;
+    overflow: hidden;
+    grid-area: photo;
+}
+
+#photo-portfolio img {
+    width: 350px;
+    filter: grayscale(1);
+    transition: filter .8s;
+}
+
+.download:hover ~ #photo-portfolio img {
+    filter: grayscale(0);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 64px;
+    grid-area: profile;
+    text-align: justify;
+}
+
+.profile p {
+    margin-bottom: 16px;
+}
+
+.profile p:first-child {
+    margin-bottom: 16px;
+}
+
+strong {
+    color: black;
+}
+
+em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.profile p:last-child {
+    margin-bottom: 0;
+}
+
+.mock-up {
+    text-decoration: 3px underline #e5bdff;
+}
+
+.new-tab {
+    width: 20px;
+    position: relative;
+    top: 4px;
+    margin-left: 4px;
+}
+
+.download {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    background: linear-gradient(#e5bdff, #bbdafe);
+    border-radius: 25px;
+    margin: 56px auto 32px;
+    grid-area: download;
+    color: black;
+    transition: transform .2s, font-weight .2s;
+}
+
+.download:hover {
+    font-weight: 500; 
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1250px) {
+    .profile-presentation {
+        display: grid;
+        width: 70%;
+        margin: auto;
+        grid-template-rows: auto auto 75px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "photo"
+        "profile"
+        "download"; 
+        margin-top: 64px;
+        margin-bottom: 64px;
+        min-width: 550px;
+    }   
+
+    #photo-portfolio {
+        margin-bottom: 24px;
+        margin: auto;
+    }
+
+    .profile {
+        margin-left: 0;
+        margin-top: 72px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .profile-presentation {
+        width: 80%;
+        min-width: unset;
+    }
+
+    .profile {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+   
+}
+
+@media screen and (max-width:565px) {
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    #photo-portfolio {
+        width: 250px;
+        height: 250px;
+        min-width: 250px;
+    }
+
+    #photo-portfolio img {
+        width: 250px;
+    }
+
+    .profile {
+        margin-top: 56px;
+    }
+
+}

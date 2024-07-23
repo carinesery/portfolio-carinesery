@@ -1,0 +1,82 @@
+.technologies {
+    column-gap: 4px;
+}
+
+.visual-motion-design {
+    margin: 32px auto 64px;
+}
+
+.visual-motion-design img {
+    width: 300px;
+}
+
+.other-visuals-motion-design {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    column-gap: 32px;
+    row-gap: 32px;
+    margin: 32px auto 64px;
+    flex-wrap: wrap;
+}
+
+.visual-motion-design, .other-visuals-motion-design figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-visuals-motion-design figure {
+    width: 268px;
+}
+
+.visual-motion-design figcaption, .other-visuals-motion-design figcaption {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.other-visuals-motion-design img {
+    display: block;
+    max-width: 268px;
+    /* max-height: 250px; */
+}
+
+/* .roller-coaster, .stand, .ballons {
+    max-width: 268px;
+    height: initial;
+} */
+
+.stand, .balloons {
+    height: 100px;
+}
+
+.animated-big-wheel {
+    margin: 32px auto;
+    width: 300px;
+}
+
+video {
+    display: block;
+}
+
+.copyright-cs {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: right;
+}
+
+@media screen and (max-width: 565px) {
+
+    .visual-motion-design img, video {
+        width: 268px;
+    }
+
+    .animated-big-wheel,
+    .copyright-cs {
+        width: 268px;
+    }
+
+}

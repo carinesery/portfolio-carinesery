@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Cavea;
+    src: url(fonts/caveat/caveat-regular.ttf) format(truetype);
+    src: url(fonts/caveat/caveat-medium.ttf) format(truetype);
+    src: url(fonts/caveat/caveat-semibold.ttf) format(truetype);
+    src: url(fonts/caveat/caveat-bold.ttf) format(truetype);
+    src: url(fonts/caveat/caveat-variable-fw.ttf) format(truetype);
+}
+
+h1 {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateX(35px);
+}
+
+h4 {
+    margin-top: 48px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 8px;
+}
+
+.technologies {
+    column-gap: 1px;
+}
+
+.technologies :first-child {
+    margin-right: 2px;
+}
+
+.instructions-blog > li {
+    margin-top: 16px;
+}
+
+.instructions-blog > li ul:first-child {
+    margin-top: 8px;
+}
+
+.instructions-blog > li li {
+    list-style-type: none;
+    position: relative;
+}
+
+.instructions-blog > li li::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/square-checked.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -28px;
+}
+
+.instructions-blog > li .no-checked::before {
+    background-image: url(images/no-checked.webp);
+}
+
+.no-checked .note {
+    font-family: Cavea, sans-serif;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.graphic-charter-tchiz {
+    display: block;
+    width: 560px; /* A modifier */
+    border: 1px solid #d9d9d9;
+    margin: 32px auto;
+}
+
+.polaroids {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    column-gap: 64px;
+    row-gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.polaroids figure {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.polaroids img {
+    width: 360px;
+}
+
+.polaroids figcaption, 
+.calendar figcaption,
+.additional-content figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+.calendar {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px auto 32px;
+}
+
+.calendar img {
+    width: 300px;
+}
+
+.additional-content {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    column-gap: 64px;
+    row-gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    
+    
+}
+
+.desk-clamps img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    min-width: 800px;
+}
+
+.desk-clamps-small,
+.desk-clamps-xsmall {
+    display: none;
+}
+
+.question-tag {
+    width: 220px;
+    margin-bottom: 8px;
+}
+
+.question-tag + figcaption {
+    width: 220px;
+}
+
+.envelop {
+    width: 240px;
+}
+
+.notepad-pen {
+    width: 320px;
+}
+
+.see-website {
+    margin-top: 32px;
+}
+
+
+@media screen and (max-width: 1000px){
+    
+    h1 {
+        transform: translateX(0px);
+    }
+
+    .desk-clamps {
+        display: none;
+    }
+
+    .desk-clamps-small {
+        display: block;
+    }
+
+    .desk-clamps-small img {
+        display: block;
+        width: 90%;
+        margin: auto;
+        min-width: 560px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    h1 {
+        left: 0;
+    }
+
+    .graphic-charter-tchiz {
+        width: 95%;
+    }
+
+    .desk-clamps-small {
+        display: none;
+    }
+
+    .desk-clamps-xsmall {
+        display: block;
+    }
+
+    .desk-clamps-xsmall img {
+        display: block;
+        width: 200px;
+        margin: 0 auto 8px;
+    }
+
+    .additional-content {
+        align-items: flex-end;
+    }
+
+    .notepad-pen {
+        width: 280px;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+
+    .polaroids figure,
+    .polaroids img {
+        width: 280px;
+    }
+
+    .calendar, 
+    .calendar img {
+        width: 240px;
+    }
+
+    .notepad-pen {
+        width: 240px;
+    }
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intégration et animation d'infographie - Portfolio de Carine Sery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="projects-style.css" type="text/css">
+    <link rel="stylesheet" href="infographie-animee.css" type="text/css">
+    <meta name="description" content="Cette page présente l'animation d'une partie d'une infographie sur le SEO. Le codage de l'infographie et son animation a été réalisé par Carine Sery dans le
+    cadre de sa formation au titre professionnel Développeur web.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_portfolio/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/favicon_portfolio/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="images/favicon_portfolio/favicon-16x16.webp">
+</head>
+<body>
+    <header id="top-of-page">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo du porfolio de Carine Sery"></a>
+        <nav>
+            <input type="checkbox" name="menu-burger" id="menu-burger">
+            <label for="menu-burger"></label>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a class="active" href="projects.html">Projets</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
+<main>
+    <a class="return" href="projects.html"><img src="images/collapse-arrow.svg" alt="Icône représentant une flèche pointant vers la gauche">Projets</a>
+    <h1>Intégration et animation d'une infographie</h1>
+
+    <section>
+        <div class="details">
+            <h2>Contexte</h2>
+            <div class="date-context">
+                <div class="date-technologies">
+                    <span>Mars 2024</span>
+                    <div class="technologies">
+                        <img class="icon" src="images/ai.svg" alt="Icône Adobe Illustrator">
+                        <img class="icon" src="images/figma.svg" alt="Icône Figma">
+                        <img class="icon" src="images/html-5.svg" alt="Icône HTML">
+                        <img class="icon" src="images/css-3.svg" alt="Icône CSS">
+                    </div>
+                </div>
+                <a class="github-link" href="https://carinesery.github.io/infographie-seo-parties-1-et-2/" target="_blank" >Infographie animée<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>
+                <p>Dans le cadre de ce projet, il a été demandé de choisir une infographie à coder et à animer en HTML et CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="details">
+            <h2>Processus</h2>
+            <ol>
+                <li>Choix d'une infographie</li>
+                <li>Reproduction des dessins vectoriels sous Adobe Illustrator</li>
+                <li>Création des maquettes desktop, tablette et smartphone</li>
+                <li>Intégration des maquettes</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="presentation">
+        <h3><span class="first-part"></span>Choix d'une infographie</h3>
+        <p>Mon choix d'infographie s'est porté sur un contenu en lien avec le web : le domaine du SEO. En effet, il me semblait intéressant d'appronfondir 
+            ce sujet important et j'ai saisi l'occasion de travailler sur ce thème via ce projet. J'ai choisi cette infographie en raison de son contenu détaillé.
+        Je n'en ai cependant codé qu'une seule partie (un tiers) en raison de sa longueur. </p> 
+        <img class="initial-infographic" src="images/infographie-parties-1-et-2.webp" alt="Parties 1 et 2 de l'infographie choisie">
+        <p>Elle est issue du site Like@d et a été créée par Sandra. L'intégralité de l'article est consultable en cliquant <a class="external-link" href="https://likead.fr/18-points-essentiels-booster-seo-2017/" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>.</p>
+    </section>
+
+    <section class="presentation">
+        <h3><span class="second-part"></span>Reproduction des dessins vectoriels sous Adobe Illustrator</h3>
+        <p>En amont de l'intégration de cette infographie, les dessins ont dû être reproduits via le logiciel Illustrator : en effet, la qualité de l'image n'aurait pas été suffisante pour
+            extraire directement les dessins de l'infographie initiale. Ce fût l'occasion de réutiliser des outils tels que la plume et le pathfinder.</p>
+        <p>Voici un exemple des dessins reproduits dans leur forme vectorielle :</p>
+        <div class="drawings-ai">
+            <figure>
+                <img src="images/robot.svg" alt="Reproduction d'un robot dans un format vectoriel">
+            </figure>
+            <figure class="square" >
+                <img src="images/square.svg" alt="Reproduction d'un ensemble de fournitures scolaires dans un format vectoriel">
+            </figure>
+            <figure class="notepad" >
+                <img src="images/notepad.svg" alt="Reproduction d'un support de notes format vectoriel">
+            </figure>
+            <figure class="typewriter" >
+                <img src="images/typewriter.svg" alt="Reproduction d'une machine à écrire dans un format vectoriel">
+            </figure>
+        </div>
+    </section>
+
+    <section class="presentation">
+        <h3><span class="third-part"></span>Création des maquettes desktop, tablette et smartphone</h3>
+        <p>Les maquettes ont été réalisées pour les supports suivants :</p> 
+            <ul>
+                <li>ordinateur de résolution 1440 x 1024,</li>
+                <li>tablette de résolution 834 x 1194,</li>
+                <li>mobile de résolution 375 x 667.</li>
+            </ul>
+        <p>L'ensemble de l'infographie, grâce à son responsive design, pourra être consultée sur ces trois écrans.</p>
+        <p>Vous trouverez ci-dessous les visuels des trois maquettes, pour un format ordinateur, un format tablette et un format smartphone.</p>
+        <p>Les maquettes sont également consultables en cliquant <a class="mock-up" href="https://www.figma.com/design/2pZBwv1VESSS2ZBlQaS6BF/Infographie-SEO?node-id=6-1347&t=7JrQzis6JG5hSwkC-0" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>.</p>
+        <div class="view-desktop">
+            <span class="view-title">Maquette vue ordinateur</span>
+            <div class="image">
+                <img src="images/desktop-infographic.webp" alt="Visuel de l'infographie vue ordinateur">
+            </div>
+        </div>
+        
+        <div class="layout-row">
+            <div class="view-tablet">
+                <span class="view-title">Maquette vue tablette</span>
+                <div class="image">
+                    <img src="images/tablet-infographic.webp" alt="Visuel de l'infographie vue tablette">
+                </div>
+            </div>       
+            
+            <div class="view-phone">
+                <span class="view-title">Maquette vue mobile</span>
+                <div class="image">
+                    <img src="images/smartphone-infographic.webp" alt="Visuel de l'infographie vue mobile">
+                </div>
+            </div>
+        </div>   
+    </section>
+    <div class="up">
+        <a href="#top-of-page"><img class="up" src="images/arrow-top.webp" alt="Icône représentant une flèche pointant vers le haut"></a>
+    </div>
+
+</main>
+<footer>
+    <a href="legal-informations.html">Mentions légales</a>
+    <span>Carine Sery <span class="copyright"></span> Tous droits réservés | 2024</span>
+    <div>
+        <a class="github-icon" href="https://github.com/carinesery"></a>
+        <a class="linkedin-icon" href="https://www.linkedin.com/in/carinesery"></a>     
+    </div>
+</footer>
+</body>
+</html>

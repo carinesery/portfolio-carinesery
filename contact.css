@@ -1,0 +1,236 @@
+h1 {
+    margin-top: 24px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.paper-plane {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    transform: rotate(15deg);
+    margin-bottom: 24px;
+    animation: fly 12s infinite;
+}
+
+@keyframes fly {
+   0% {
+    transform: translate3d(0, 0, 0) rotate(15deg) scale(1); 
+   } 
+
+   86% {
+    transform: translate3d(0, 0, 0) rotate(15deg) scale(1);
+   } 
+
+   100% {
+    transform: translate3d(300px, -200px, -200px) rotate(15deg) scale(0);
+   }
+}
+
+.proposals {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.proposals::after {
+    content:'';
+    animation: proposals 12s infinite;
+}
+
+@keyframes proposals {
+    0% {content: 'U';}
+    1% {content: 'Un';}
+    2% {content: 'Une';}
+    3% {content: 'Une ';}
+    4% {content: 'Une q';}
+    5% {content: 'Une qu';}
+    6% {content: 'Une que';}
+    7% {content: 'Une ques';}
+    8% {content: 'Une quest';}
+    9% {content: 'Une questi';}
+    10% {content: 'Une questio';}
+    11% {content: 'Une question';}
+    12% {content: 'Une question ';}
+    13% {content: 'Une question ?';}
+    14% {content: 'Une question ?';}
+    15% {content: 'Une question ?';}
+    16% {content: 'Une question ?';}
+    17% {content: 'Une question ?';}
+    18% {content: 'Une suestion ?';} 
+    19% {content: 'Une suestion ?';}
+    20% {content: 'Une sugstion ?';}
+    21% {content: 'Une suggtion ?';}
+    22% {content: 'Une suggeion ?';}
+    23% {content: 'Une suggeson ?';}
+    24% {content: 'Une suggestn ?';}
+    25% {content: 'Une suggesti ?';}
+    26% {content: 'Une suggestio ?';}
+    27% {content: 'Une suggestion ?';}
+    28% {content: 'Une suggestion ?';}
+    29% {content: 'Une suggestion ?';}
+    30% {content: 'Une suggestion ?';}
+    31% {content: 'Une suggestion ?';}
+    32% {content: 'Une suggestion ';}
+    33% {content: 'Une suggesti';}
+    34% {content: 'Une suggest';}
+    35% {content: 'Une sugges';}
+    36% {content: 'Une sugge';}
+    37% {content: 'Une sugg';}
+    38% {content: 'Une sug';}
+    39% {content: 'Une su';}
+    40% {content: 'Une s';}
+    41% {content: 'Une ';}
+    42% {content: 'Une p';}
+    43% {content: 'Une pr';}
+    44% {content: 'Une pro';}
+    45% {content: 'Une prop';}
+    46% {content: 'Une propo';}
+    47% {content: 'Une propos';}
+    48% {content: 'Une proposi';}
+    49% {content: 'Une proposit';}
+    50% {content: 'Une propositi';}
+    51% {content: 'Une propositio';}
+    52% {content: 'Une proposition';}
+    53% {content: 'Une proposition ';}
+    54% {content: 'Une proposition d';}
+    55% {content: "Une proposition d'";}
+    56% {content: "Une proposition d'a";}
+    57% {content: "Une proposition d'al";}
+    58% {content: "Une proposition d'alt";}
+    59% {content: "Une proposition d'alte";}
+    60% {content: "Une proposition d'alter";}
+    61% {content: "Une proposition d'altern";}
+    62% {content: "Une proposition d'alterna";}
+    63% {content: "Une proposition d'alternan";}
+    64% {content: "Une proposition d'alternanc";}
+    65% {content: "Une proposition d'alternance";}
+    66% {content: "Une proposition d'alternance ";}
+    67% {content: "Une proposition d'alternance ?";}
+    68% {content: "Une proposition d'alternance ?";}
+    69% {content: "Une proposition d'alternance ?";}
+    70% {content: "Une proposition d'alternance ?";}
+    71% {content: "Une proposition d'alternance ?";}
+    72%{content: "C";}
+    73% {content: "Co";}
+    74% {content: "Con";}
+    75% {content: "Cont";}
+    76% {content: "Conta";}
+    77% {content: "Contac";}
+    78% {content: "Contact";}
+    79% {content: "Contacte";}
+    80% {content: "Contactez";}
+    81% {content: "Contactez-";}
+    82% {content: "Contactez-m";}
+    83% {content: "Contactez-mo";}
+    84% {content: "Contactez-moi";}
+    85% {content: "Contactez-moi ";}
+    86% {content: "Contactez-moi !";}
+    100% {content: "Contactez-moi !";}
+}
+
+.contact-information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 72px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+.phone, .email, .linkedin-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    font-size: 16px;
+}
+
+.phone:hover a, .email:hover a, .linkedin-contact:hover a {
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+.phone a, .email a, .linkedin-contact a {
+    transition: transform .3s;
+}
+
+.phone a + .icon {
+    transition: background-image .3s;
+}
+
+.phone a:hover + .icon {
+    background-image: url(images/phone-gradient.svg);
+} 
+
+.email a:hover + .icon {
+    background-image: url(images/email-gradient.svg);
+} 
+
+.linkedin-contact a:hover + .icon {
+    background-image: url(images/linkedin-gradient.svg);
+} 
+
+.icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 24px;
+    background-image: url(images/phone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 36px;
+    padding: 32px;
+    border-radius: 100%;
+    border: 2px solid #e5bdff;
+}
+
+.email .icon {
+    background-image: url(images/email.svg);
+}
+
+.linkedin-contact .icon {
+    background-image: url(images/linkedin.svg);
+}
+
+
+@media screen and (max-width: 950px) {
+    
+    .contact-information {
+        display: flex;
+        row-gap: 64px;
+        justify-content: center;
+        column-gap: 16px;
+    }
+
+    .proposals {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 96px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    h1 {
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .proposals {
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List - Portfolio de Carine Sery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="maquette-to-do-list.css" type="text/css">
+    <meta name="description" content="Cette page présente le projet Maquette To Do List. Il a été réalisé par Carine Sery dans le
+    cadre de sa formation au titre professionnel Développeur web.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_portfolio/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/favicon_portfolio/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="images/favicon_portfolio/favicon-16x16.webp">
+</head>
+<body>
+    <header id="top-of-page">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo du porfolio de Carine Sery"></a>
+        <nav>
+            <input type="checkbox" name="menu-burger" id="menu-burger">
+            <label for="menu-burger"></label>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a class="active" href="projects.html">Projets</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <main>
+        <a class="return" href="projects.html"><img src="images/collapse-arrow.svg" alt="Icône représentant une flèche pointant vers la gauche">Projets</a>
+
+        <h1>Maquette To Do List</h1>
+        <section>
+            <div class="details">
+                <h2>Contexte</h2>
+                <div class="date-context">
+                    <div class="date-technologies">
+                        <span>Novembre 2023</span>
+                        <div class="technologies">
+                            <img class="icon" src="images/figma.svg" alt="Icône Figma">
+                        </div>
+                    </div>
+                    <p>L'entreprise Safrio, petite structure familiale qui existe depuis 15 ans, 
+                        est spécialisée dans la vente de savonnettes bio. Afin d'améliorer la gestion 
+                        de ses tâches, elle souhaite acquérir une application web permettant de s'organiser à l'aide de "To do list".
+                        Le développement de l'application doit cependant être rapide.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="details">
+                <h2>Processus</h2>
+                <ol>
+                    <li>Veille concurrentielle</li>
+                    <li>Rédaction d'un persona</li>
+                    <li>Choix des fonctionnalités</li>
+                    <li>Création de la charte graphique</li>
+                    <li>Maquettage avec Figma</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <h3><span class="first-part"></span>Veille concurentielle, persona et choix des fonctionnalités</h3>
+            <p>La veille concurrentielle, effectuée auprès d'une dizaine d'applications, a permis de mieux connaître 
+                les points forts des applications concurrentes et d'identifier les fonctionnalités les plus proposées aux utilisateurs.</p>
+            <p>Un persona a également été rédigé afin de mieux appréhender les attentes et les peurs éventuelles d'un salarié de 
+                l'entreprise Safrio vis-à-vis de ce nouvel outil.</p>
+                <img class="persona" src="images/persona-to-do-list.webp" alt="Persona rédigé en lien avec la to do list">
+            <p>Ces deux premières étapes ont permis de retenir les fonctionnalités suivantes :</p>
+                <ul>
+                    <li>création de plusieurs to do list</li>
+                    <li>suppression d'une to do list / d'une tâche</li>
+                    <li>possibilité d'indiquer qu'une tâche est prioritaire</li>
+                    <li>ajout d'un descriptif</li>
+                    <li>ajout une pièce jointe à une tâche</li>
+                    <li>recherche de tâche ou de to do list</li>
+                    <li>ajout d'une date de fin à la tâche</li>
+                    <li>calendrier avec tâches du jour</li>
+                    <li>étiquette rattachant la tâche à sa to do list</li>
+                    <li>tâche cochée et rayée une fois achevée</li>    
+                </ul>
+        </section>
+
+        <section class="presentation">
+            <h3><span class="second-part"></span>Création de la charte graphique</h3>
+            <p>J'ai choisi de construire la charte graphique autour de la couleur bleu lavande, couleur présente sur la photographie en fond d'écran
+                de la page de connexion à l'application, mais également utilisée pour colorer les savons. Le bleu est par ailleurs une couleur appréciée 
+                par une grande majorité de personnes et est souvent associé à ce qui est organisé et structuré (se reporter à la théorie du management 
+                par les couleurs). Pour toutes ces raisons, le bleu a été mis au coeur de la charte graphique.
+            </p>
+            <div class="graphic-charter">
+                <span id="logo-created"><img src="images/logo-safriorganizer.webp" alt="Logo conçu pour l'application To do list de l'entreprise Safrio"></span>
+                <span id="color-one">#000000</span>
+                <span id="color-two">#828282</span>
+                <span id="color-three">#474f76</span>
+                <span id="color-four">#cfd7ff</span>
+                <span id="color-five">#f1f4ff</span>
+                <span id="main-font">Montserrat</span>
+                <span id="quote-font">Klee One</span>
+            </div>
+        </section>
+        
+        <section class="presentation">
+            <h3><span class="third-part"></span>Maquettage sous figma</h3>
+            <p>Les maquettes ont été réalisées pour les supports suivants :</p> 
+                <ul>
+                    <li>ordinateur de résolution 1440 x 1024, </li>
+                    <li>tablette de résolution 834 x 1094,</li>
+                    <li>mobile de résolution 320 x 568.</li>
+                </ul>
+            <p>L'application web, via son responsive design, 
+                pourra être utilisée par l'ensemble des salariés de Safrio, quelque soit leur support de prédilection.
+            </p>
+            <p>Vous trouverez ci-dessous les visuels des trois maquettes, sur un format ordinateur, tablette et téléphone.</p>
+            <p>Les maquettes sont également consultables en cliquant <a class="mock-up" href="https://www.figma.com/file/HE7AQwOcg3TDivdbiXAkAr/Maquette-To-Do-List?type=design&node-id=0-1&mode=design&t=rlbq4UG0aOFdXDXQ-0" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>.</p>
+            
+            <span class="view-title">Maquette vue ordinateur</span>
+            <div class="view-desktop">
+                <form action="no-action.php" method="get">
+                    <input type="radio" id="log-in-desktop" name="view-desktop" checked>
+                    <img src="images/projet-maquette-to-do-list.webp" alt="Visuel de la page de connexion de l'application To do list vue ordinateur">
+                    <input type="radio" id="home-desktop" name="view-desktop">
+                    <img src="images/desktop-accueil.webp" alt="Visuel de la page d'accueil de l'application To do list vue ordinateur">
+                    <input type="radio" id="view-todolist-desktop" name="view-desktop">
+                    <img src="images/desktop-vue-to-do.webp" alt="Visuel d'une to do list de l'application To do list vue ordinateur">
+                    <div class="slide">
+                        <label for="log-in-desktop"></label>
+                        <label for="home-desktop"></label>
+                        <label for="view-todolist-desktop"></label>
+                    </div>
+                </form> 
+            </div>
+            <div class="layout-row">
+                <div class="view-tablet">
+                    <span class="view-title">Maquette vue tablette</span>
+                    <form action="no-action.php" method="get">
+                        <input type="radio" id="log-in-tablet" name="view-tablet" checked>
+                        <div class="image">
+                            <img src="images/tablet-log-in.webp" alt="Visuel de la page de connexion de l'application To do list vue tablette">
+                        </div>
+                        <input type="radio" id="home-tablet" name="view-tablet">
+                        <div class="image">
+                            <img src="images/tablet-home.webp" alt="Visuel de la page d'accueil de l'application To do list vue tablette">
+                        </div>
+                        <input type="radio" id="view-todolist-tablet" name="view-tablet">
+                        <div class="image">
+                            <img src="images/tablet-view-to-do.webp" alt="Visuel d'une to do list de l'application To do list vue tablette">
+                        </div>
+                        <div class="slide">
+                            <label for="log-in-tablet"></label>
+                            <label for="home-tablet"></label>
+                            <label for="view-todolist-tablet"></label>
+                        </div>
+                    </form>
+                </div>
+                <div class="view-phone">
+                    <span class="view-title">Maquette vue mobile</span>
+                    <form action="no-action.php" method="get">
+                        <input type="radio" id="log-in-phone" name="view-tablet" checked>
+                        <div class="image">
+                            <img src="images/phone-log-in.webp" alt="Visuel de la page de connexion de l'application To do list vue smartphone">
+                        </div>
+                        <input type="radio" id="home-phone" name="view-tablet">
+                        <div class="image">
+                            <img src="images/phone-home.webp" alt="Visuel de la page d'accueil de l'application To do list vue smartphone">
+                        </div>
+                        <input type="radio" id="view-calendar-phone" name="view-tablet">
+                        <div class="image">
+                            <img src="images/phone-calendar.webp" alt="Visuel du calendrier de l'application To do list vue smartphone">
+                        </div>
+                        <input type="radio" id="view-todolist-phone" name="view-tablet">
+                        <div class="image">
+                            <img src="images/phone-view-to-do.webp" alt="Visuel d'une to do list de l'application To do list vue smartphone">
+                        </div>
+                        <div class="slide">
+                            <label for="log-in-phone"></label>
+                            <label for="home-phone"></label>
+                            <label for="view-calendar-phone"></label>
+                            <label for="view-todolist-phone"></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="up">
+            <a href="#top-of-page"><img class="up" src="images/arrow-top.webp" alt="Icône représentant une flèche pointant vers le haut"></a>
+        </div>
+
+    </main>
+    <footer>
+        <a href="legal-informations.html">Mentions légales</a>
+        <span>Carine Sery <span class="copyright"></span> Tous droits réservés | 2024</span>
+        <div>
+            <a class="github-icon" href="https://github.com/carinesery"></a>
+            <a class="linkedin-icon" href="https://www.linkedin.com/in/carinesery"></a>    
+        </div>
+    </footer>
+</body>
+</html>

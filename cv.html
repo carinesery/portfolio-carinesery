@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Portfolio de Carine Sery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="cv.css" type="text/css">
+    <meta name="description" content="Cette page présente le CV maquetté puis codé par Carine Sery pendant sa formation au titre professionnel Développeur web.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_portfolio/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="images/favicon_portfolio/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="images/favicon_portfolio/favicon-16x16.webp">
+</head>
+<body>
+    <header id="top-of-page">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo du porfolio de Carine Sery"></a>
+        <nav>
+            <input type="checkbox" name="menu-burger" id="menu-burger">
+            <label for="menu-burger"></label>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a class="active" href="projects.html">Projets</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <main>
+        <a class="return" href="projects.html"><img src="images/collapse-arrow.svg" alt="Icône représentant une flèche pointant vers la gauche">Projets</a>
+        <h1>CV</h1>
+
+        <section>
+            <div class="details">
+                <h2>Contexte</h2>
+                <div class="date-context">
+                    <div class="date-technologies">
+                        <span>Janvier 2024</span>
+                        <div class="technologies">
+                            <img class="icon" src="images/figma.svg" alt="Icône Figma">
+                            <img class="icon" src="images/html-5.svg" alt="Icône HTML">
+                            <img class="icon" src="images/css-3.svg" alt="Icône CSS">
+                        </div>
+                    </div>
+                    <a class="github-link" href="https://carinesery.github.io/cv-carine-sery/" target="_blank" >CV de Carine Sery<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>
+                    <p>Après la mise à jour de mon CV, j'ai décidé de l'adapter à un format web puis de le coder. Cela a constitué
+                        un exercice supplémentaire en amont de la création de ce portfolio.
+                   </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="details">
+                <h2>Processus</h2>
+                <ol>
+                    <li>Choix de la charte graphique</li>
+                    <li>Création des maquettes ordinateur, tablette et mobile</li>
+                    <li>Intégration des maquettes</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <h3><span class="first-part"></span>Choix de la charte graphique</h3>
+            <p>Mon précédent CV avait besoin d'être mis à jour, tant au niveau du contenu, que du design. J'ai choisi la couleur violette 
+                car elle reflète pour moi la créativité, et le bleu pour la rigueur. Ces deux qualités me semblent essentielles pour un développeur web.
+            </p>
+            <div class="graphic-charter">
+                <span id="color-one">#000000</span>
+                <span id="color-two">#505050</span>
+                <span id="color-three">#e5bdff</span>
+                <span id="color-four">#bbdafe</span>
+                <span id="color-five">#ffffff</span>
+                <span id="main-font">Montserrat</span>
+                <span id="secondary-font">Roboto</span>
+            </div>
+        </section>
+
+        <section class="presentation">
+            <h3><span class="second-part"></span>Maquettage sous figma</h3>
+            <p>Les maquettes ont été réalisées pour les supports suivants :</p> 
+                <ul>
+                    <li>ordinateur de résolution 1440 x 1024, </li>
+                    <li>tablette de résolution 834 x 1194</li>
+                    <li>mobile de résolution 375 x 667.</li>
+                </ul>
+            <p>L'ensemble de mon CV, grâce à son responsive design, 
+                pourra ainsi être consulté sur ordinateur, tablette et mobile.    
+            </p>
+            <p>Vous trouverez ci-dessous les visuels des trois maquettes, sur un format ordinateur, tablette et téléphone.</p>
+            <p>Les maquettes sont également consultables en cliquant <a class="mock-up" href="https://www.figma.com/file/ZvBKOu7Q6UguGbaYQ24A9i/CV-Carine-Sery?type=design&node-id=0-1&mode=design&t=LZTuEO2fswpaiPOU-0" target="_blank">ici<img class="new-tab" src="images/new-tab.svg" alt="Icone indiquant l'ouverture d'un nouvel onglet pour consulter le lien"></a>.</p>
+            
+            <span class="view-title">Maquette vue ordinateur</span>
+            <div class="view-desktop">
+                <div class="image">
+                    <img src="images/desktop-cv.webp" alt="Visuel du CV vue ordinateur">
+                </div>
+            </div>
+            
+            <div class="layout-row">
+                
+                <div class="view-tablet">
+                    <span class="view-title">Maquette vue tablette</span>
+                    <div class="image">
+                        <img src="images/tablet-cv.webp" alt="Visuel du CV vue tablette">
+                    </div>
+                </div>       
+                
+                <div class="view-phone">
+                    <span class="view-title">Maquette vue mobile</span>
+                    <div class="image">
+                        <img src="images/mobile-cv.webp" alt="Visuel du CV vue mobile">
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <div class="up">
+            <a href="#top-of-page"><img class="up" src="images/arrow-top.webp" alt="Icône représentant une flèche pointant vers le haut"></a>
+        </div>
+
+    </main>
+    <footer>
+        <a href="legal-informations.html">Mentions légales</a>
+        <span>Carine Sery <span class="copyright"></span> Tous droits réservés | 2024</span>
+        <div>
+            <a class="github-icon" href="https://github.com/carinesery"></a>
+            <a class="linkedin-icon" href="https://www.linkedin.com/in/carinesery"></a>    
+        </div>
+    </footer>
+</body>
+</html>
