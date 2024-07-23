@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.61 169.34">
+  <g id="Support">
+    <g id="Support-2" data-name="Support">
+      <polyline points="80.18 160.34 27.2 160.34 40.32 160.34 51.5 133.57 79.82 76.84 108 133.57 119.18 160.34 132.29 160.34 79.32 160.34" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <rect x="5.32" y="158.34" width="150" height="11" style="fill: #7d7f7f; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Roue">
+    <g id="Roue-2" data-name="Roue">
+      <circle cx="79.82" cy="77.84" r="62.5" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <line x1="17.32" y1="77.34" x2="142.32" y2="77.34" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <line x1="80.32" y1="140.34" x2="80.32" y2="15.34" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <line x1="124.37" y1="122.12" x2="35.98" y2="33.73" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <line x1="124.37" y1="33.73" x2="35.98" y2="122.12" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle cx="79.82" cy="76.84" r="18.5" style="fill: none; stroke: #7d7f7f; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_8" data-name="Nacelle 8">
+    <g>
+      <path d="M6.84,77.34h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M18.32,64.4v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M16.32,64.4v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15H8.66L0,77.34h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="25.98 92.34 34.64 77.34 27.8 77.34 18.32 77.34 16.32 77.34 6.84 77.34 0 77.34 8.66 92.34 25.98 92.34" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_7" data-name="Nacelle 7">
+    <g>
+      <path d="M25.81,33.68h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M37.29,20.74v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M35.29,20.74v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="44.95 48.68 53.61 33.68 46.77 33.68 37.29 33.68 35.29 33.68 25.81 33.68 18.97 33.68 27.63 48.68 44.95 48.68" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_6" data-name="Nacelle 6">
+    <g>
+      <path d="M131.81,78.26h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M143.29,65.32v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M141.29,65.32v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="150.95 93.26 159.61 78.26 152.77 78.26 143.29 78.26 141.29 78.26 131.81 78.26 124.97 78.26 133.63 93.26 150.95 93.26" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_5" data-name="Nacelle 5">
+    <g>
+      <path d="M113.81,34.26h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M125.29,21.32v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M123.29,21.32v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="132.95 49.26 141.61 34.26 134.77 34.26 125.29 34.26 123.29 34.26 113.81 34.26 106.97 34.26 115.63 49.26 132.95 49.26" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_4" data-name="Nacelle 4">
+    <g>
+      <path d="M69.81,15h9.48V2.06c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M81.29,2.06v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M79.29,2.06v12.94h2V2.06c5.2.63,9.29,6.14,9.48,12.94h6.84L88.95,0h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="88.95 30 97.61 15 90.77 15 81.29 15 79.29 15 69.81 15 62.97 15 71.63 30 88.95 30" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_3" data-name="Nacelle 3">
+    <g>
+      <path d="M113.81,121.68h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M125.29,108.74v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M123.29,108.74v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="132.95 136.68 141.61 121.68 134.77 121.68 125.29 121.68 123.29 121.68 113.81 121.68 106.97 121.68 115.63 136.68 132.95 136.68" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_2" data-name="Nacelle 2">
+    <g>
+      <path d="M25.81,121.68h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M37.29,108.74v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M35.29,108.74v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="44.95 136.68 53.61 121.68 46.77 121.68 37.29 121.68 35.29 121.68 25.81 121.68 18.97 121.68 27.63 136.68 44.95 136.68" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <g id="Nacelle_1" data-name="Nacelle 1">
+    <g>
+      <path d="M69.81,140.51h9.48v-12.94c-5.2.63-9.29,6.14-9.48,12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M81.29,127.57v12.94h9.48c-.19-6.79-4.28-12.3-9.48-12.94Z" style="fill: none; stroke-width: 0px;"/>
+      <path d="M79.29,127.57v12.94h2v-12.94c5.2.63,9.29,6.14,9.48,12.94h6.84l-8.66-15h-17.32l-8.66,15h6.84c.19-6.79,4.28-12.3,9.48-12.94Z" style="fill: #25c1b9; stroke-width: 0px;"/>
+      <polygon points="88.95 155.51 97.61 140.51 90.77 140.51 81.29 140.51 79.29 140.51 69.81 140.51 62.97 140.51 71.63 155.51 88.95 155.51" style="fill: #1a7c79; stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>

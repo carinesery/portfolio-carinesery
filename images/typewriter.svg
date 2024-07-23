@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.57 47.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #463f76;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fabd29;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g id="Machine_à_écrire" data-name="Machine à écrire">
+      <g>
+        <polygon class="cls-3" points="5.06 17.02 49.83 17.02 49.83 30.72 53.74 35.15 53.74 47.74 0 47.74 0 35.66 4.89 31.23 4.82 17.02 5.06 17.02"/>
+        <g>
+          <rect class="cls-2" x="8.22" y="27.32" width="3.74" height="3.74" rx=".99" ry=".99"/>
+          <rect class="cls-2" x="16.77" y="27.32" width="3.74" height="3.74" rx=".99" ry=".99"/>
+          <rect class="cls-2" x="25.32" y="27.32" width="3.74" height="3.74" rx=".99" ry=".99"/>
+          <rect class="cls-2" x="33.86" y="27.32" width="3.74" height="3.74" rx=".99" ry=".99"/>
+          <rect class="cls-2" x="42.41" y="27.32" width="3.74" height="3.74" rx=".99" ry=".99"/>
+        </g>
+        <g>
+          <rect class="cls-2" x="42.57" y="40.21" width="3.74" height="3.74" rx=".99" ry=".99"/>
+          <rect class="cls-2" x="8.07" y="40.21" width="3.74" height="3.74" rx=".99" ry=".99"/>
+          <rect class="cls-2" x="16.6" y="40.21" width="21.18" height="3.74" rx=".99" ry=".99"/>
+        </g>
+      </g>
+      <g>
+        <rect class="cls-2" x="7.02" width="40.72" height="8.95"/>
+        <rect class="cls-2" y="5.87" width="4.21" height="14.17"/>
+        <rect class="cls-2" x="50.36" y="5.87" width="4.21" height="14.17"/>
+        <path class="cls-2" d="m27.19,15.88h7.01c0,3.85-3.16,7.01-7.01,7.01s-6.94-3.09-7.01-6.88l7.01-.13Z"/>
+        <rect class="cls-1" x="4.11" y="8.95" width="46.15" height="8.02"/>
+      </g>
+    </g>
+  </g>
+</svg>

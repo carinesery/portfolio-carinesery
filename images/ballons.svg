@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.02 214.05">
+  <g id="Calque_1-2" data-name="Calque 1">
+    <line x1="49.03" y1="55.66" x2="48.03" y2="211.66" style="fill: #000; stroke-width: 0px;"/>
+    <line x1="27.39" y1="72.05" x2="48.39" y2="214.05" style="fill: #000; stroke-width: 0px;"/>
+    <line x1="57.28" y1="94.66" x2="48.28" y2="211.66" style="fill: #000; stroke-width: 0px;"/>
+    <g style="opacity: .65;">
+      <path d="M49.26,55.19l-3.24,5.11s3.4,1.42,6.66-.14c-1.13-1.71-3.42-4.96-3.42-4.96Z" style="fill: #0aa; stroke-width: 0px;"/>
+    </g>
+    <g style="opacity: .65;">
+      <ellipse cx="50.53" cy="27.83" rx="22.5" ry="27.83" style="fill: #0aa; stroke-width: 0px;"/>
+    </g>
+    <g style="opacity: .59;">
+      <path d="M27.2,71.73l-2.17,5.65s3.61.73,6.5-1.45c-1.44-1.45-4.33-4.19-4.33-4.19Z" style="fill: #f4cb1c; stroke-width: 0px;"/>
+    </g>
+    <g style="opacity: .59;">
+      <ellipse cx="21.77" cy="45.76" rx="21.56" ry="26.66" transform="translate(-8.33 4.99) rotate(-11)" style="fill: #f4cb1c; stroke-width: 0px;"/>
+    </g>
+    <g style="opacity: .84;">
+      <path d="M57.16,94.79l-4.02,4.52s3.12,1.95,6.6.93c-.84-1.87-2.58-5.45-2.58-5.45Z" style="fill: #f77f7f; stroke-width: 0px;"/>
+    </g>
+    <g style="opacity: .8;">
+      <ellipse cx="61.54" cy="68.98" rx="26.5" ry="21.43" transform="translate(-12.67 124.09) rotate(-84.86)" style="fill: #f77f7f; stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>
