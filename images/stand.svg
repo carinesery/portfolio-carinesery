@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 89.96">
+  <g id="Calque_12" data-name="Calque 12">
+    <g>
+      <g>
+        <rect x="1" y="32.96" width="86" height="57" style="fill: #ff6f5c; stroke-width: 0px;"/>
+        <g>
+          <rect x="1.01" y="32.96" width="11.06" height="57" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <rect x="19.93" y="32.96" width="11.06" height="57" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <rect x="38.93" y="32.96" width="11.06" height="57" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <rect x="56.93" y="32.96" width="11.06" height="57" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <rect x="75.93" y="32.96" width="11.06" height="57" style="fill: #fc60ed; stroke-width: 0px;"/>
+        </g>
+      </g>
+      <rect x="12.5" y="33" width="63" height="38" style="fill: #303030; stroke-width: 0px;"/>
+      <g>
+        <g>
+          <path d="M11,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #ff6f5c; stroke-width: 0px;"/>
+          <path d="M22,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <path d="M33,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #ff6f5c; stroke-width: 0px;"/>
+          <path d="M44,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <path d="M55,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #ff6f5c; stroke-width: 0px;"/>
+          <path d="M66,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #fc60ed; stroke-width: 0px;"/>
+          <path d="M77,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #ff6f5c; stroke-width: 0px;"/>
+          <path d="M88,32.5c0,3.04-2.46,5.5-5.5,5.5s-5.5-2.46-5.5-5.5c0-.17.01-.34.03-.5h10.94c.02.16.03.33.03.5Z" style="fill: #fc60ed; stroke-width: 0px;"/>
+        </g>
+        <polygon points="66 0 22 0 0 32 88 32 66 0" style="fill: #ff6f5c; stroke-width: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

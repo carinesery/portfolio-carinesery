@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.69 114.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffdfa;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fbca55;
+      }
+
+      .cls-3 {
+        fill: #8885a6;
+      }
+
+      .cls-4 {
+        fill: #dee6ef;
+      }
+
+      .cls-13 {
+        stroke-width: 3px;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-13, .cls-14, .cls-16, .cls-17 {
+        fill: none;
+      }
+
+      .cls-13, .cls-16, .cls-17 {
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        fill: #a4c0cf;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #f15b41;
+      }
+
+      .cls-8 {
+        fill: #b8d3e0;
+      }
+
+      .cls-9 {
+        fill: #817ea1;
+      }
+
+      .cls-14 {
+        stroke: #a4c0cf;
+        stroke-width: 2.5px;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17 {
+        stroke-linecap: round;
+      }
+
+      .cls-10 {
+        fill: #43d176;
+      }
+
+      .cls-11 {
+        fill: #8ca5b5;
+      }
+
+      .cls-15 {
+        fill: #f15d46;
+        stroke: #dee6ef;
+      }
+
+      .cls-15, .cls-16 {
+        stroke-width: 5px;
+      }
+
+      .cls-12 {
+        fill: #fdfeff;
+      }
+
+      .cls-17 {
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g id="Robot_et_traits" data-name="Robot et traits">
+      <g id="Traits">
+        <line class="cls-16" x1="31.91" y1="100.15" x2="91.19" y2="99.89"/>
+        <line class="cls-16" x1="2.5" y1="106.6" x2="64.11" y2="106.33"/>
+        <line class="cls-17" x1="39.23" y1="112.9" x2="86.54" y2="112.7"/>
+        <line class="cls-15" x1="70.07" y1="106.3" x2="81.73" y2="106.25"/>
+      </g>
+      <g id="Robot">
+        <rect id="Jambe" class="cls-5" x="48.09" y="75.32" width="2.81" height="15.83"/>
+        <rect id="Jambe-2" data-name="Jambe" class="cls-5" x="61.24" y="75.32" width="2.81" height="15.83"/>
+        <path id="Pied" class="cls-6" d="m59.73,90.38v5.87h16.34s2.3-.26.94-1.62-9.45-4.26-11.74-4.26h-5.53Z"/>
+        <path id="Pied-2" data-name="Pied" class="cls-6" d="m51.95,90.38v5.87h-16.34s-2.3-.26-.94-1.62,9.45-4.26,11.74-4.26c2.3,0,5.53,0,5.53,0Z"/>
+        <circle id="Cuisse" class="cls-11" cx="49.22" cy="74.36" r="5.74"/>
+        <circle id="Cuisse-2" data-name="Cuisse" class="cls-11" cx="62.84" cy="74.36" r="5.74"/>
+        <rect id="Avant-bras" class="cls-5" x="24.38" y="52.79" width="3.06" height="23.47"/>
+        <rect id="Avant-bras-2" data-name="Avant-bras" class="cls-5" x="85.01" y="52.79" width="3.06" height="23.47"/>
+        <path id="Main" class="cls-13" d="m22.63,81.18s-.94-8.84,3.06-8.94,3.57,8.94,3.57,8.94"/>
+        <path id="Main-2" data-name="Main" class="cls-13" d="m83.26,81.18s-.94-8.84,3.06-8.94,3.57,8.94,3.57,8.94"/>
+        <rect id="Bras" class="cls-11" x="73.18" y="46.09" width="13.79" height="5.87"/>
+        <rect id="Bras-2" data-name="Bras" class="cls-11" x="27.35" y="46.09" width="13.79" height="5.87"/>
+        <rect id="Ventre" class="cls-5" x="38.14" y="48.16" width="36.17" height="28.1" rx="3.19" ry="3.19"/>
+        <g id="Bouton_jaune" data-name="Bouton jaune">
+          <circle class="cls-11" cx="56.39" cy="63.13" r="8.3"/>
+          <circle class="cls-2" cx="56.39" cy="63.13" r="5.49"/>
+        </g>
+        <g id="Bouton_rouge" data-name="Bouton rouge">
+          <rect class="cls-11" x="40.92" y="59.14" width="3.26" height="7.15" rx="1.63" ry="1.63"/>
+          <circle class="cls-7" cx="42.55" cy="61.58" r="1.55"/>
+        </g>
+        <g id="Bouton_vert" data-name="Bouton vert">
+          <rect class="cls-11" x="68.05" y="59.14" width="3.26" height="7.15" rx="1.63" ry="1.63"/>
+          <circle class="cls-10" cx="69.68" cy="61.66" r="1.52"/>
+        </g>
+        <g id="Epaule">
+          <circle class="cls-1" cx="25.91" cy="49.54" r="4.65"/>
+          <circle class="cls-4" cx="25.91" cy="49.54" r="1.55"/>
+        </g>
+        <g id="Epaule-2" data-name="Epaule">
+          <circle class="cls-1" cx="86.54" cy="49.73" r="4.65"/>
+          <circle class="cls-4" cx="86.54" cy="49.73" r="1.55"/>
+        </g>
+        <g id="Tête_robot" data-name="Tête robot">
+          <g id="Clou">
+            <line class="cls-14" x1="65.84" y1="10.31" x2="65.84" y2="5.49"/>
+            <circle class="cls-5" cx="65.84" cy="2.75" r="2.75"/>
+            <ellipse class="cls-8" cx="66.39" cy="2.75" rx="2.19" ry="2.41"/>
+          </g>
+          <g id="Clou-2" data-name="Clou">
+            <line class="cls-14" x1="45.86" y1="10.31" x2="45.86" y2="5.49"/>
+            <circle class="cls-5" cx="45.86" cy="2.75" r="2.75"/>
+            <ellipse class="cls-8" cx="46.41" cy="2.75" rx="2.19" ry="2.41"/>
+          </g>
+          <path class="cls-11" d="m47.1,49.36s.96,4,2.74,3.97c1.79-.03,12.38,0,12.38,0,0,0,1.08-.37,1.82-3.98-3.16,0-16.95.01-16.95.01Z"/>
+          <g id="Visage">
+            <path class="cls-12" d="m76.43,49.02h-40.09c-3.9,0-7.09-3.11-7.09-6.9v-25.86c0-3.8,3.19-6.9,7.09-6.9h40.09c3.9,0,7.09,3.11,7.09,6.9v25.86c0,3.8-3.19,6.9-7.09,6.9Z"/>
+            <path class="cls-8" d="m29.26,38.13v4.15s.4,6.69,5.45,6.89,41.72.2,41.72.2c0,0,6.49-.09,7.09-5.62v-6.47s-12.43,6.38-19.57,6.55c-7.15.17-14.38.17-14.38.17,0,0-15.66-3.15-20.3-5.87Z"/>
+            <path class="cls-5" d="m29.26,36.79s28.21,13.28,54.26-.36v2.45s-26.21,14.14-54.26.36v-2.45Z"/>
+          </g>
+          <g id="Oeil">
+            <ellipse class="cls-9" cx="45.01" cy="28.81" rx="2.89" ry="4.3"/>
+            <ellipse class="cls-3" cx="45.86" cy="28.81" rx="1.12" ry="2.96"/>
+          </g>
+          <g id="Oeil-2" data-name="Oeil">
+            <ellipse class="cls-9" cx="67.14" cy="28.81" rx="2.89" ry="4.3"/>
+            <ellipse class="cls-3" cx="68" cy="28.81" rx="1.12" ry="2.96"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
