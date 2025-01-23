@@ -119,13 +119,6 @@ ol {
     margin-left: 0px;
 }
 
-/* ? Pas besoin ici
-.visuals {
-    width: 80%;
-    margin: auto;
-}
-*/
-
 .presentation {
     width: 80%;
     margin: auto;
@@ -140,7 +133,7 @@ h3 {
     text-align: left;
 }
 
-.first-part, .second-part, .third-part, .fourth-part {
+.first-part, .second-part, .third-part, .fourth-part, .fifth-part {
     width: 100px;
     min-width: 80px;
     height: 100px;
@@ -160,6 +153,10 @@ h3 {
 
 .fourth-part {
     background-image: url(images/part-four.svg);
+}
+
+.fifth-part {
+    background-image: url(images/part-five.svg);
 }
 
 .presentation p, .presentation ul {
@@ -183,7 +180,7 @@ main li {
 .persona, .moodboard {
     display: block;
     width: 560px; /* A modifier */
-    border: 1px solid #d9d9d9;
+    border: 1px solid #636363;
     margin: 32px auto;
 }
 
@@ -369,6 +366,58 @@ main li {
     margin-left: 4px;
 }
 
+/* Liste des plugins WordPress */
+
+ul.list-plugins {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 64px;
+    margin: auto;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+.list-plugins li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 0;
+}
+
+.list-plugins li > span {
+    display: block;
+    text-align: center;
+    background: #e5bdff;
+    padding: 8px 16px;
+    margin-bottom: 32px;
+    border-radius: 2px;
+}
+
+.plugins {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+
+.logo-plugin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.logo-plugin img {
+    height: 100px;
+    border-radius: 5%;
+}
+
+.logo-plugin figcaption {
+    text-align: center;
+}
+
 /* Pied de page */
 .up {
     display: flex;
@@ -447,24 +496,6 @@ main li {
         width: 80%;
     }
 
-    /* Spécifique à la maquette to do list 
-    .graphic-charter {
-        width: 560px;
-        margin: auto;
-        display: grid;
-        grid-template-rows: auto 25px 75px 25px 75px 75px;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "logo logo logo logo logo"
-        ". . . . ."
-        "main-font main-font main-font secondary-font secondary-font"
-        ". . . . ."
-        "color-one color-two color-three color-four color-five"
-        "color-six color-seven color-eight color-nine .";
-        margin-top: 32px;
-    }
-    */
-
     .view-desktop {
         width: 560px;
         margin: auto;
@@ -496,7 +527,16 @@ main li {
     .view-phone {
         margin-top: 56px;
     }
-    
+
+    .plugins {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .logo-plugin {
+        width: 440px;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -566,25 +606,6 @@ main li {
         width: 95%;
     }
 
-    /* Spécifiques à la to do list
-    .persona, .graphic-charter {
-        width: 95%;
-    }
-
-    .graphic-charter [id|="color"] {
-        font-size: 14px;
-    }
-
-    .graphic-charter #main-font {
-        font-size: 27px;
-    }
-
-    .graphic-charter #quote-font {
-        font-size: 24px;
-        line-height: 40px;
-    }
-    */
-
     .view-desktop {
         width: 450px;
     }
@@ -604,6 +625,11 @@ main li {
         width: 450px;
     }
 
+    .list-plugins li,
+    .logo-plugin {
+        width: 280px;
+    }
+
 }
 
 @media screen and (max-width: 565px) {
@@ -617,32 +643,6 @@ main li {
         width: 90%;
     }
 
-    /* Spécifique à la to do list
-    .graphic-charter {
-        margin: auto;
-        display: grid;
-        grid-template-rows: auto 25px 75px 25px 75px 75px 75px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "logo logo logo"
-        ". . ."
-        "main-font main-font secondary-font"
-        ". . ."
-        "color-one color-two color-three"
-        "color-four color-five color-six"
-        "color-seven color-eight color-nine";
-        margin-top: 32px;
-    }
-
-    #logo-created {
-        border: 1px solid #d9d9d9;
-    }
-
-    #secondary-font {
-        font-size: 26px;
-    }
-        */
-    
     .view-desktop {
         width: 300px;
     }
@@ -679,7 +679,6 @@ main li {
     .view-phone .image {
         width: 200px;
         height: 360px;
-        /* margin-bottom: 48px; */
     }
 
     .up {
