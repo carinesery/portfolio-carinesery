@@ -59,7 +59,7 @@ h1 {
     margin-bottom: 48px;
 }
 
-.safrio, .gameboycodeur, .goodis, .cv, .wallpaper, .animated-infographic, .blog, .pages-wordpress, .cesi-app, .big-wheel {
+.safrio, .gameboycodeur, .goodis, .cv, .wallpaper, .animated-infographic, .blog, .pages-wordpress, .cesi-app, .big-wheel, .sm, .mjp {
     width: 450px;
     height: 319px;
     border-radius: 18px;
@@ -111,6 +111,14 @@ h1 {
     background: linear-gradient(#fc60edcc, #a5fffdcc);
 }
 
+.sm {
+    background-color: rgb(2, 82, 105, .8);
+}
+
+.mjp {
+    background-color: rgb(174, 21, 90, .8);
+}
+
 .safrio::after, 
 .gameboycodeur::after, 
 .goodis::after, 
@@ -120,7 +128,9 @@ h1 {
 .blog::after, 
 .pages-wordpress::after, 
 .cesi-app::after,
-.big-wheel::after {
+.big-wheel::after,
+.sm::after,
+.mjp::after {
     content: '';
     position: absolute;
     top: 0;
@@ -180,6 +190,16 @@ h1 {
     background-size: cover;
 }
 
+.sm::after {
+    background-image: url(images/projet-sm.webp);
+    background-size: cover;
+}
+
+.mjp::after {
+    background-image: url(images/projet-mjp.webp);
+    background-size: cover;
+}
+
 .safrio > span, 
 .gameboycodeur > span, 
 .goodis > span, 
@@ -188,7 +208,9 @@ h1 {
 .blog > span, 
 .pages-wordpress > span, 
 .cesi-app > span, 
-.big-wheel > span {
+.big-wheel > span,
+.sm > span,
+.mjp > span {
     display: block;
     font-size: 32px;
     text-transform: uppercase;
@@ -273,6 +295,26 @@ h1 {
     font-size: 42px;
 }
 
+.sm > span {
+    font-family: Inter, sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: initial;
+}
+
+.sm .uppercase {
+    text-transform: uppercase;
+    display: block;
+}
+
+.mjp > span {
+    font-family: 'Beth Ellen', cursive;
+    color: #ffffff;
+    font-size: 36px;
+    text-transform: initial;
+}
+
 .project-consultation  {
     display: flex;
     flex-direction: column;
@@ -291,9 +333,23 @@ h1 {
     transition: opacity .2s;
 }
 
+.technologies {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+}
+
 .icon {
     width: 24px;
     margin-bottom: 16px;
+}
+
+.ai,
+.ae,
+.wordpress,
+.elementor,
+.woocommerce {
+    margin-left: 2px;
 }
 
 h2 {
@@ -315,8 +371,9 @@ h2 + span {
 .blog:hover .project-consultation,
 .pages-wordpress:hover .project-consultation, 
 .cesi-app:hover .project-consultation,
-.big-wheel:hover .project-consultation 
-{
+.big-wheel:hover .project-consultation,
+.sm:hover .project-consultation,
+.mjp:hover .project-consultation {
     opacity: 1;
 }
 
@@ -351,7 +408,9 @@ h2 + span {
     .blog, 
     .pages-wordpress, 
     .cesi-app, 
-    .big-wheel {
+    .big-wheel,
+    .sm,
+    .mjp {
         width: 350px;
         height: 248px;
     }
@@ -403,6 +462,14 @@ h2 + span {
         font-size: 36px;
     }
 
+    .sm > span {
+        font-size: 34px;
+    }
+
+    .mjp > span {
+        font-size: 30px;
+    }
+
     h2 {
         font-size: 18px;
     }
@@ -441,7 +508,9 @@ h2 + span {
     .blog, 
     .pages-wordpress, 
     .cesi-app, 
-    .big-wheel {
+    .big-wheel,
+    .sm,
+    .mjp {
         width: 260px;
         height: 184px;
     }
@@ -492,6 +561,14 @@ h2 + span {
 
     .big-wheel > span {
         font-size: 26px;
+    }
+
+    .sm > span {
+        font-size: 24px;
+    }
+
+    .mjp > span {
+        font-size: 20px;
     }
 
     h2 {
